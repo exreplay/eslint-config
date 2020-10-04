@@ -9,7 +9,7 @@ Install the package
 ```bash
 $ yarn add --dev @averjs/eslint-config
 #or
-$ npm i -D @nuxtjs/eslint-config
+$ npm i -D @averjs/eslint-config
 ```
 
 Extend the config in your eslintrc file
@@ -29,7 +29,7 @@ If you are using typescript, install the typescript package instead of the norma
 ```bash
 $ yarn add --dev @averjs/eslint-config-typescript
 #or
-$ npm i -D @nuxtjs/eslint-config-typescript
+$ npm i -D @averjs/eslint-config-typescript
 ```
 
 Extend the config in your eslintrc file
