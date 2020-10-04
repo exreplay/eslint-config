@@ -1,0 +1,32 @@
+{
+  "name": "@averjs/eslint-config-typescript",
+  "version": "0.0.0",
+  "description": "typescript eslint config for averjs",
+  "keywords": [
+    "typescript",
+    "eslint",
+    "aver"
+  ],
+  "author": "Florian Weber <fl-weber@t-online.de>",
+  "homepage": "https://github.com/exreplay/eslint-config#readme",
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/exreplay/eslint-config.git",
+    "directory": "packages/eslint-config"
+  },
+  "bugs": {
+    "url": "https://github.com/exreplay/eslint-config/issues"
+  },
+  "dependencies": {
+    "@averjs/eslint-config": "0.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.3.0",
+    "@typescript-eslint/parser": "^4.3.0"
+  }
+}

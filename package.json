@@ -1,0 +1,10 @@
+{
+  "name": "eslint-config",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "lerna": "^3.22.1"
+  }
+}
