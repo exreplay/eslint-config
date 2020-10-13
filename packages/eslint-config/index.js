@@ -52,7 +52,6 @@ module.exports = {
     /**
      * Unicorn rules
      */
-
     'unicorn/better-regex': 'error',
     'unicorn/no-array-instanceof': 'error',
     'unicorn/no-hex-escape': 'error',
@@ -63,7 +62,32 @@ module.exports = {
     'unicorn/prefer-optional-catch-binding': 'error',
     'unicorn/prefer-text-content': 'error',
     'unicorn/prefer-type-error': 'error',
-    'unicorn/throw-new-error': 'error'
+    'unicorn/throw-new-error': 'error',
+
+
+    /**
+     * Vue rules
+     */
+    'vue/script-indent': ['error', 2, {
+      baseIndent: 1
+    }],
+  
+    'vue/html-indent': ['error', 2, {
+      baseIndent: 1
+    }],
+  
+    'vue/max-attributes-per-line': ['error', {
+      singleline: 1,
+      multiline: {
+        max: 1,
+        allowFirstLine: false
+      }
+    }],
+  
+    'vue/html-closing-bracket-newline': ['error', {
+      singleline: 'never',
+      multiline: 'always'
+    }]
   },
   overrides: [
     {
