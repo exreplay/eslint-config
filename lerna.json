@@ -1,9 +1,14 @@
 {
-  "version": "1.0.0",
+  "version": "independent",
   "packages": [
     "packages/*"
   ],
   "npmClient": "yarn",
   "useWorkspaces": true,
-  "exact": true
+  "exact": true,
+  "command": {
+    "init": {
+      "exact": true
+    }
+  }
 }
