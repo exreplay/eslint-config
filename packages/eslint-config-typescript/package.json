@@ -1,6 +1,6 @@
 {
   "name": "@averjs/eslint-config-typescript",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "typescript eslint config for averjs",
   "keywords": [
     "typescript",
@@ -25,7 +25,7 @@
     "url": "https://github.com/exreplay/eslint-config/issues"
   },
   "dependencies": {
-    "@averjs/eslint-config": "1.0.0",
+    "@averjs/eslint-config": "1.0.1",
     "@typescript-eslint/eslint-plugin": "^4.3.0",
     "@typescript-eslint/parser": "^4.3.0"
   }
