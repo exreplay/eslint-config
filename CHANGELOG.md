@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.1.0](https://github.com/exreplay/eslint-config/compare/v1.0.0...v3.1.0) (2022-10-03)
+
+
+### Features
+
+* added new vue rules ([ebb327f](https://github.com/exreplay/eslint-config/commit/ebb327f27349abad6ae78e17b79ad723a6e96f8c))
+* update eslint-plugin-unicorn to v23 ([5b5e827](https://github.com/exreplay/eslint-config/commit/5b5e8275fa83f0bd21620908da1bd92fce2442d1))
+* update eslint-plugin-vue to v7 ([ebff76c](https://github.com/exreplay/eslint-config/commit/ebff76ca9c16814fb629588092f1949272799d73))
+
+
+### Bug Fixes
+
+* removed dist ([27ddb6b](https://github.com/exreplay/eslint-config/commit/27ddb6b413b5f2d02c6d6fbb9f4c44111690311c))
+
 ### [4.0.10](https://gitlab.ppm-vi.de:10024/intern/eslint-config/compare/v4.0.9...v4.0.10) (2022-06-21)
 
 ### [4.0.9](https://gitlab.ppm-vi.de:10024/intern/eslint-config/compare/v4.0.8...v4.0.9) (2022-06-02)
